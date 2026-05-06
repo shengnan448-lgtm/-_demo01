@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Row" style="flex-direction: row; align-items: center;">
+        <ui:VisualElement name="Icon" style="background-image: resource(&apos;Art/Items/Icons/icon_M&apos;); width: 60px; height: 60px; flex-grow: 0; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;" />
+        <ui:Label text="斧头" display-tooltip-when-elided="true" name="Name" style="font-size: 18px;" />
+    </ui:VisualElement>
+</ui:UXML>
